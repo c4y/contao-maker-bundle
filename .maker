@@ -1,5 +1,0 @@
-name=ApoNot
-vendor=c4y
-namespace=Apo
-folder=bundles/ApoNot
-composer=c4y/contao-apo-not
