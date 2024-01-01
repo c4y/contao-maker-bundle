@@ -1,0 +1,3 @@
+api:
+    resource: "@Contao<?= $this->name ?>Bundle/src/Controller"
+    type: annotation

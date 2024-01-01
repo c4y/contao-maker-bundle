@@ -1,0 +1,11 @@
+{
+    "directories-bin": [
+        "skeleton",
+        "src",
+        "vendor"
+    ],
+    "files": [
+        "composer.json"
+    ]
+
+}

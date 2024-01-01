@@ -1,0 +1,15 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: true
+
+    <?= $this->vendor ?>\<?= $this->namespace ?>\Controller\:
+        public: true
+        resource: ../src/Controller
+        tags: ['controller.service_arguments']
+
+    #<?= $this->vendor ?>\<?= $this->namespace ?>\EventListener\DataContainer\ImageSizeOptionsListener:
+    #    arguments:
+    #        - '@security.helper'
+    #        - '@contao.image.sizes'

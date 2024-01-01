@@ -1,0 +1,25 @@
+{
+    "name": "olli/cli-test",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oliver Lohoff",
+            "email": "info@contao4you.de"
+        }
+    ],
+    "require": {
+        "symfony/console": "^6.4"
+    },
+    "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "bamarni/composer-bin-plugin": true
+        }
+    }
+}
