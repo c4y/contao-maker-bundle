@@ -26,7 +26,7 @@ class MakeAPICommand extends Command
     {
         $bundleFolder = $input->getArgument('folder');
 
-        $name = explode("/", $bundleFolder)[1];
+        $name = $input->getArgument('name');
         $psr4Namespace = $this->getPSR4Namespace($bundleFolder);
         [$vendor, $namespace] = explode('\\', $psr4Namespace);
 

@@ -47,7 +47,7 @@ Aus `bundles/ContaoMeinTest` wird `c4y/contao-mein-test`.
 
 **Beispiel**
 
-`cmaker bundles/Test MeinInhaltselement`
+`cmaker make:ce bundles/Test MeinInhaltselement`
 
 Erstelle Dateien:
 
@@ -63,7 +63,7 @@ Erstellt eine eigene FrontendRoute /example
 **Beispiel**
 
 ```bash
-cmaker make:api Test
+cmaker make:api bundles/Test ApiTest
 ```
 
 Erstellte Datei:
